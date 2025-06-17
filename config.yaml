@@ -68,7 +68,13 @@ contact: 'saram.morsy@gmail.com' # FIXME
 
 # Order of episodes in your lesson
 episodes:
-- introduction.Rmd
+- Lesson_1.Rmd
+- Lesson_2.Rmd
+- Lesson_3.Rmd
+- Lesson_4.Rmd
+- Lesson_5.Rmd
+- Lesson_6.Rmd
+- Lesson_7.Rmd
 
 # Information for Learners
 learners:
