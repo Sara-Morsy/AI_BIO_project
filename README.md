@@ -1,74 +1,10 @@
-# The Carpentries Workbench Template R Markdown Lesson
+<h2 style="text-align: center; font-weight: bold;">How to Build FAIR Domain-Specific Datasets for fine tuning/training NLP models?</h2>
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench].
+Domain-specifc natural language processing (NLP) models extract data with high accuracy from unstructured text by identifying specialized vocabularies that can be used in different applications. These models are developed by using domain specific data.
+Through specialized datasets, researchers fine-tuned pretrained models for protein-protein relationships in the STRING database (1), and accelerated drug development by identifying chemical-gene and drug-drug interactions, as well as predicting peptide toxicity (2-4), and extracting brain connectivity data of neurological disorders (5).
+Despite their applications, fields like veterinary medicine and agricultural biology lack NLP-based applications. Barriers include the absence of high-quality domain-specific datasets, small and unbalanced datasets, and insufficient expertise to build datasets (6, 7). Manual annotation, a common necessity in these fields, is time-consuming and prone to bias, affecting model performance. To address this, we propose a training course focused on building FAIR (Findable, Accessible, Interoperable, Reusable) domain-specific datasets (6). 
+#### Our target audience are:
+    • Researchers looking to adopt NLP solutions for analyzing domain-specific text, even those who lack expertise in AI but have domain knowledge, which is crucial for building annotating data.
+    • Computational biology or AI researchers who work on building domain-specific NLP applications who need to overcome dataset scarcity and quality challenges.
 
-## Note about lesson life cycle stage
-Although the `config.yaml` states the life cycle stage as pre-alpha, **the template is stable and ready to use**. The life cycle stage is preset to `"pre-alpha"` as this setting is appropriate for new lessons initialised using the template.
 
-## Create a new repository from this template
-
-To use this template to start a new lesson repository, 
-make sure you're logged into Github.   
-Visit https://github.com/carpentries/workbench-template-rmd/generate
-and follow the instructions.
-Checking the 'Include all branches' option will save some time waiting for the first website build
-when your new repository is initialised.
-
-If you have any questions, contact [@tobyhodges](https://github.com/tobyhodges)
-
-## Configure a new lesson
-
-Follow the steps below to
-complete the initial configuration of a new lesson repository built from this template:
-
-1. **Make sure GitHub Pages is activated:**
-   navigate to _Settings_,
-   select _Pages_ from the left sidebar,
-   and make sure that `gh-pages` is selected as the branch to build from.
-   If no `gh-pages` branch is available, check _Actions_ to see if the first
-   website build workflows are still running.
-   The branch should become available when those have completed.
-1. **Adjust the `config.yaml` file:**
-   this file contains global parameters for your lesson site.
-   Individual fields within the file are documented with comments (beginning with `#`)
-   At minimum, you should adjust all the fields marked 'FIXME':
-   - `title`
-   - `created`
-   - `keywords`
-   - `life_cycle` (the default, _pre-alpha_, is the appropriate for brand new lessons)
-   - `contact`
-1. **Annotate the repository** with site URL and topic tags:
-   navigate back to the repository landing page and
-   click on the gear wheel/cog icon (similar to ⚙️) 
-   at the top-right of the _About_ box.
-   Check the "Use your GitHub Pages website" option,
-   and [add some keywords and other annotations to describe your lesson](https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags)
-   in the _Topics_ field.
-   At minimum, these should include:
-   - `lesson`
-   - the life cycle of the lesson (e.g. `pre-alpha`)
-   - the human language the lesson is written in (e.g. `deutsch`)
-1. **Adjust the name of the `.Rproj` file.**
-   It is simplest to make this match the name of the repository.
-1. **Adjust the 
-   `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
-   as appropriate for your project.
-   -  `CODE_OF_CONDUCT.md`: 
-      if you are using this template for a project outside The Carpentries,
-      you should adjust this file to describe 
-      who should be contacted with Code of Conduct reports,
-      and how those reports will be handled.
-   -  `CONTRIBUTING.md`:
-      depending on the current state and maturity of your project,
-      the contents of the template Contributing Guide may not be appropriate.
-      You should adjust the file to help guide contributors on how best
-      to get involved and make an impact on your lesson.
-   -  `LICENSE.md`:
-      in line with the terms of the CC-BY license,
-      you should ensure that the copyright information 
-      provided in the license file is accurate for your project.
-1. **Update this README with 
-   [relevant information about your lesson](https://carpentries.github.io/lesson-development-training/collaborating-newcomers.html#readme)**
-   and delete this section.
-
-[workbench]: https://carpentries.github.io/sandpaper-docs/
