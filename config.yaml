@@ -1,7 +1,8 @@
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
-varnish: https://github.com/Sara-Morsy/varnish 
+varnish: Sara-Morsy/varnish 
+
 # Which carpentry is this (swc, dc, lc, or cp)?
 # swc: Software Carpentry
 dc: Data Carpentry
