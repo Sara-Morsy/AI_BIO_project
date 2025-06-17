@@ -1,6 +1,7 @@
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
+varnish: Sara-Morsy/varnish 
 
 # Which carpentry is this (swc, dc, lc, or cp)?
 # swc: Software Carpentry
