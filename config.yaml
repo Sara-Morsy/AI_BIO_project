@@ -36,7 +36,7 @@ keywords: 'Artificial intelligence, NLP, FAIR datasets, Responsible AI, FAIR, tr
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-rmd' # FIXME
+source: 'https://github.com/Sara-Morsy/AI_BIO_project' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
